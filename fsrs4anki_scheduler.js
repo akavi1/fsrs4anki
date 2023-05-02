@@ -21,7 +21,7 @@ const deckParams = [
   },
   {
     // Example 1: User's custom parameters for this deck and its sub-decks.
-    // Need to add <div id=deck deck_name="{{Deck}}"></div> to your card's front template's first line.
+    // Need to add <div id=deck deck_name="{{Deck}}"></div> to your card's front template.
     "deckName": "ALL::Learning::English::Reading",
     "w": [1.1475, 1.401, 5.1483, -1.4221, -1.2282, 0.035, 1.4668, -0.1286, 0.7539, 1.9671, -0.2307, 0.32, 0.9451],
     "requestRetention": 0.9,
@@ -42,7 +42,7 @@ const deckParams = [
 ];
 
 // To turn off FSRS in specific decks, fill them into the skip_decks list below.
-// And add <div id=deck deck_name="{{Deck}}"></div> to your card's front template's first line.
+// And add <div id=deck deck_name="{{Deck}}"></div> to your card's front template.
 // Please don't remove it even if you don't need it.
 const skip_decks = ["ALL::Learning::ML::NNDL", "ALL::Learning::English"];
 
